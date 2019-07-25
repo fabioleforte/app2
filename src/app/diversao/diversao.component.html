@@ -31,10 +31,13 @@
         </div>
 
         <div class="row">
-          <button class="btn btn-outline-success">Ver oferta</button>
+          <button [routerLink]="['/oferta', oferta.id]" class="btn btn-outline-success">
+            Ver oferta
+          </button>
         </div>
       </div>
     </div>
     <hr />
     <br />
   </div>
+</div>
