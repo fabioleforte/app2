@@ -2,3 +2,7 @@
   color: orange;
   font-weight: bold;
 }
+
+.card-block {
+  padding: 10px;
+}
