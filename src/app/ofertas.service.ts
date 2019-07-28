@@ -33,7 +33,7 @@ export class OfertasService {
   }
 
   public getComoUsarOfertaPorId(id: number): Promise<string> {
-    return this.http.get(`${URL_API}/como-usar? id = ${id}`)
+    return this.http.get(`${URL_API}/como-usar?id=${id}`)
       .toPromise()
       .then((resposta: Response) => {
         return resposta.json()[0].descricao;
@@ -41,7 +41,7 @@ export class OfertasService {
   }
 
   public getOndeFicaPorId(id: number): Promise<string> {
-    return this.http.get(`${URL_API}/onde-fica? id = ${id}`)
+    return this.http.get(`${URL_API}/onde-fica?id=${id}`)
       .toPromise()
       .then((resposta: Response) => {
         return resposta.json()[0].descricao;
