@@ -13,6 +13,8 @@ import { ROUTES } from './app.routes';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
+// pipes
+import { DescricaoReduzidaPipe } from './util/descricao-reduzida.pipe';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
     OfertaComponent,
     ComoUsarComponent,
     OndeFicaComponent,
+    DescricaoReduzidaPipe
   ],
   imports: [
 

@@ -18,8 +18,11 @@
             />
 
             <ul class="list-group " style="position: absolute">
-              <li class="list-group-item" *ngFor="let oferta of ofertas2">
-                {{ oferta.titulo }}
+              <li
+                class="list-group-item"
+                *ngFor="let oferta of ofertas | async"
+              >
+                {{ oferta.titulo | descricaoreduzida: 15 | uppercase }}
               </li>
             </ul>
           </div>
