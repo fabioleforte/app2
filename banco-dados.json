@@ -204,6 +204,27 @@
       "numero": "69",
       "complemento": "casa",
       "id": 3
+    },
+    {
+      "endereco": "Rua das Flores",
+      "numero": "34",
+      "complemento": "casa 4",
+      "formaPagamento": "dinheiro",
+      "id": 4
+    },
+    {
+      "endereco": "rua das estrelas",
+      "numero": "34",
+      "complemento": "casa 5",
+      "formaPagamento": "dinheiro",
+      "id": 5
+    },
+    {
+      "endereco": "maria",
+      "numero": "44",
+      "complemento": "dded",
+      "formaPagamento": "dinheiro",
+      "id": 6
     }
   ]
 }
