@@ -194,46 +194,16 @@
       "id": 1
     },
     {
-      "endereco": "Rua teste",
-      "numero": "5",
-      "complemento": "casa 3",
-      "formaPagamento": "dinheiro",
+      "endereco": "Rua lunar",
+      "numero": "200",
+      "complemento": "planeta lunar",
       "id": 2
     },
     {
-      "endereco": "Rua teste",
-      "numero": "5",
-      "complemento": "casa 3",
-      "formaPagamento": "dinheiro",
+      "endereco": "Rua Galaxia",
+      "numero": "69",
+      "complemento": "casa",
       "id": 3
-    },
-    {
-      "endereco": "Rua 10'",
-      "numero": "3",
-      "complemento": "x",
-      "formaPagamento": "debito",
-      "id": 4
-    },
-    {
-      "endereco": "Rua das estrelas",
-      "numero": "23",
-      "complemento": "Teste",
-      "formaPagamento": "dinheiro",
-      "id": 5
-    },
-    {
-      "endereco": "rrer",
-      "numero": "rr",
-      "complemento": "rr",
-      "formaPagamento": "dinheiro",
-      "id": 6
-    },
-    {
-      "endereco": "fdfd",
-      "numero": "fffd",
-      "complemento": "fff",
-      "formaPagamento": "debito",
-      "id": 7
     }
   ]
 }
