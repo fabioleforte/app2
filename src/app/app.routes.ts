@@ -20,7 +20,7 @@ export const ROUTES: Routes = [
       { path: 'onde-fica', component: OndeFicaComponent },
     ]
   },
-  { path: 'ordem-comprar', component: OrdemCompraComponent },
+  { path: 'ordem-compra', component: OrdemCompraComponent },
 ];
 
 
