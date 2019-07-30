@@ -8,7 +8,7 @@ import { CarrinhoService } from '../carrinho.service';
   selector: 'app-oferta',
   templateUrl: './oferta.component.html',
   styleUrls: ['./oferta.component.css'],
-  providers: [OfertasService, CarrinhoService]
+  providers: [OfertasService]
 })
 export class OfertaComponent implements OnInit {
 
@@ -27,13 +27,12 @@ export class OfertaComponent implements OnInit {
           this.oferta = ofertas;
         });
     });
-
-    console.log('Oferta array de itens do carrinho ', this.carrinhoService.exibirItens());
   }
 
   public adicionarItemCarrinho(): void {
 
     this.carrinhoService.incluirItem(this.oferta);
+    console.log(this.carrinhoService.exibirItens());
   }
 
 }
