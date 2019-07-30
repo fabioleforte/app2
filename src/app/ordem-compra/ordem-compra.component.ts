@@ -58,8 +58,15 @@ export class OrdemCompraComponent implements OnInit {
         this.idPedidoCompra = idPedido;
         console.log(this.idPedidoCompra);
 
-      })
-
+      });
     }
+  }
+
+  public adicionar(item: ItemCarrinho): void {
+    this.carrinhoService.adicionarQuantidade(item);
+  }
+
+  public diminuir(item: ItemCarrinho): void {
+    this.carrinhoService.diminuirQuantidade(item);
   }
 }
